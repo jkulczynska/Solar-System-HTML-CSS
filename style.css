@@ -1,0 +1,168 @@
+body{
+    background-color: #080520;
+    font-family: 'Arial', sans-serif;
+    color: aliceblue;
+    margin: 0;
+  padding: 0;
+}
+
+
+.title{
+letter-spacing: 15px;
+font-size: 50px;
+padding: 10px;
+}
+
+.author{
+    letter-spacing: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.underline {
+  width: 200px;
+  height: 3px;
+  background-color: #00e6c2;
+  margin-left: 10px;
+}
+
+.planets {
+    padding-top: 100px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  }
+
+.planets img{
+    width: 240px;
+    height: auto;
+
+}
+
+
+
+  .planet-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .planet-name {
+    min-width: 120px;
+    text-align: right;
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    flex-shrink: 0;
+  }
+  
+  .planet-row img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .sun-glow {
+    filter: drop-shadow(0 0 70px rgba(255, 230, 0, 0.671));
+  }
+  
+
+
+  .planet-description {
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    max-width: 400px;
+    background-color: #231f2e;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    padding: 15px;
+  
+    margin-left: 20px;
+    
+  }
+  
+  .planet-description:hover {
+    background-color: #342f44;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+  }
+
+
+
+  .container {
+    width: 1288px;
+    margin: auto;
+  }
+
+  footer {
+    background: #231f2e;
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+  }
+  .footer__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  
+  .footer__left {
+    flex: 0.75;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .footer__title {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  .footer__right {
+    flex: 0.25;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+  }
+  
+  .footer__text {
+    text-align: justify;
+    font-size: 13px;
+    opacity: 0.7;
+  }
+  
+  .footer__divider {
+    width: 100%;
+    height: 1px;
+    max-height: 1px;
+    background: #00e6c2;
+    opacity: 0.5;
+    margin-top: 20px;
+  }
+  
+  .footer__down {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+    font-size: 12px;
+  }
+
+ 
+  
+  
+ 
