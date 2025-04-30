@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+    body {
+      padding: 0 10px;
+    }
+  
+    .title {
+      font-size: 28px;
+      letter-spacing: 8px;
+      text-align: center;
+      padding: 5px;
+    }
+  
+    .author {
+      font-size: 16px;
+      letter-spacing: 2px;
+      text-align: center;
+      padding: 5px;
+    }
+  
+    .underline {
+      width: 100px;
+      margin: 0 auto 10px;
+    }
+  
+    .planets {
+      padding-top: 40px;
+      gap: 30px;
+    }
+  
+    .planet-row {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+  
+    .planet-name {
+      font-size: 16px;
+      letter-spacing: 2px;
+      min-width: unset;
+      text-align: center;
+    }
+  
+    .planets img {
+      width: 180px;
+    }
+  
+    .planet-description {
+      font-size: 14px;
+      max-width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+  
+    .container {
+      width: 100%;
+    }
+  
+    footer {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .footer__content {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .footer__left,
+    .footer__right {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer__text {
+      font-size: 12px;
+    }
+  
+    .footer__divider {
+      margin: 15px 0;
+    }
+  
+    .footer__down {
+      font-size: 11px;
+      padding-top: 10px;
+    }
+  }
+  
